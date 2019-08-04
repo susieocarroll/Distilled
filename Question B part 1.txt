@@ -1,0 +1,36 @@
+Data Quality Issues:
+
+Tableau Tab - Year Data
+7 values in the Year field that are not in the correct format i.e. YYYY. These include 0, 132, 141, 142 and 200.
+4 NULL values in Year field. 
+
+
+Tableau Tab - Transmission
+467 NULL values in transmission field
+
+Tableau Tab - Mileage Type
+355 NULL values in MileageType field
+3 values with numbers in MileageType field
+No standardised term for kilometres. 112 values with km and 9905 values with kilometres
+
+Tableau Tab - Fuel Type
+174 NULL values in Fuel Type field
+
+Tableau Tab - Colour
+812 NULL values in Colour field
+
+Tableau Tab - Body Type
+980 NULL values in Body Type field
+
+Tableau Tab - Price Scatterplot
+3 outliers in the Price field that need to be investigated that are shown below.
+
+Ad					Price
+db53c14b8560ed318535b8746abd9bbe	18,500,366
+684364b66f3217ca47b8030729c358b8	1,234,567
+975d545d29461f02692f08a162d5fd67	77,777,777
+
+Similarly, there are some outliers in Mileage field that should be investigated. 
+
+
+
